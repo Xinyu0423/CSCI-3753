@@ -1,0 +1,23 @@
+Each time user run the code, the user needs to remake it by typing
+make clean
+it will clear all the previous document.
+
+To compile again, type
+make
+it will compile all the code.
+
+To test predict-lru, type
+./test-lru 
+This will run the predict-lru implementation.
+
+To test predict.c, type
+./test-predict 
+This will run the predict implementation.
+
+Logic Description:
+For the predicting, it first create a struct page struct that contain
+page number and its frequency. Then intialize all the page number to -1
+and frequency to 0. Then pageout all the previous pages to create spaces
+and calculate the frequency of all pages. Use the lru implementation
+to check if the page is not in memory. Then, to make the prediction 
+check the frequency and pagin all the pages that frequency is greater or equal to 1.

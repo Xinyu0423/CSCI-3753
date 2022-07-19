@@ -1,0 +1,9 @@
+Xinyu Jiang
+06/21/2019
+
+Description:
+For the PA2_simple_char_driver.c file, it gengerates the read, write,
+seek, open, close operations. 
+For the testSimpleCharDriver.c file, it tests all the options that wrote
+in simple_char_driver.c.
+For the Makefile, it only generates PA2_simple_char_driver.
